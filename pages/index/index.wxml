@@ -1,8 +1,18 @@
 <!--index.wxml-->
 <view class="container">
-  <view >
-      <text class="iconfont icon-04"></text>
-      <van-button type="default">默认按钮</van-button>
-     <button bind:getuserinfo="getUserInfoHandle" open-type="getUserInfo">{{msg}}</button>
-  </view>
+    <form action="/">
+        <van-search
+                value="{{ searchValue }}"
+                placeholder="请输入搜索关键词"
+                shape="round"
+                bind:search="searchHandle"
+        />
+    </form>
+    <view class="banner-wrap">
+        <swiper circular="true" autoplay="true" indicator-dots="true" :autoplay="3000" indicator-color="white">
+            <swiper-item wx:key="id" wx:for="{{bannerList}}">
+                <image mode="aspectFill" src="{{item.purl}}"/>
+            </swiper-item>
+        </swiper>
+    </view>
 </view>

@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/jinye123/ss-online-mini#readme",
   "dependencies": {
-    "@vant/weapp": "^1.6.8"
+    "@vant/weapp": "^1.6.8",
+    "miniprogram-http-request": "^1.0.3"
   }
 }

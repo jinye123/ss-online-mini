@@ -1,3 +1,4 @@
+@import '/miniprogram_npm/@vant/weapp/common/index.wxss';
 @import "/static/iconfont/index.wxss";
 page{
   height: 100%;
