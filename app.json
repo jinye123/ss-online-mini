@@ -9,6 +9,8 @@
     "navigationBarTitleText": "圣商在线",
     "navigationBarTextStyle":"black"
   },
-  "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "van-button": "@vant/weapp/button/index"
+  }
 }

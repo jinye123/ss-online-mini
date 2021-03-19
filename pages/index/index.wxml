@@ -1,6 +1,8 @@
 <!--index.wxml-->
 <view class="container">
   <view >
+      <text class="iconfont icon-04"></text>
+      <van-button type="default">默认按钮</van-button>
      <button bind:getuserinfo="getUserInfoHandle" open-type="getUserInfo">{{msg}}</button>
   </view>
 </view>
