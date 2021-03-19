@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+  <view >
+     <button bind:getuserinfo="getUserInfoHandle" open-type="getUserInfo">{{msg}}</button>
+  </view>
+</view>
