@@ -2,19 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42a7a9c9-7b57-4535-949a-9bef36ab6cc1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/api/home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/my.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/logo.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/app.wxss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.wxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/my/my.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/my/my.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/iconfont/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/static/iconfont/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/request.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,15 +46,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/img" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/static/img" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -65,6 +68,9 @@
       <workItem from="1616050855361" duration="169000" />
       <workItem from="1616116939235" duration="370000" />
       <workItem from="1616117460451" duration="11311000" />
+      <workItem from="1616154047350" duration="5772000" />
+      <workItem from="1616217249477" duration="1881000" />
+      <workItem from="1616416546196" duration="235000" />
     </task>
     <servers />
   </component>

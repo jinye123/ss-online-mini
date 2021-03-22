@@ -1,12 +1,7 @@
 <!--index.wxml-->
 <view class="container">
     <form action="/">
-        <van-search
-                value="{{ searchValue }}"
-                placeholder="请输入搜索关键词"
-                shape="round"
-                bind:search="searchHandle"
-        />
+        <van-search value="{{ searchValue }}" placeholder="请输入搜索关键词" shape="round" bind:search="searchHandle"/>
     </form>
     <view class="banner-wrap">
         <swiper circular="true" autoplay="true" indicator-dots="true" :autoplay="3000" indicator-color="white">
@@ -14,5 +9,48 @@
                 <image mode="aspectFill" src="{{item.purl}}"/>
             </swiper-item>
         </swiper>
+    </view>
+    <view class="category-container">
+        <view wx:key="name" class="category-item" wx:for="{{categoryList}}" data-item="{{item}}"
+              bind:tap="categoryClickHandle">
+            <image src="{{item.img}}" alt=""/>
+            <text>{{item.name}}</text>
+        </view>
+    </view>
+    <view class="update-container">
+        <navigator url="/pages/my/my?id={{item.id}}" >
+            <view class="update-item" wx:key="id" wx:for="{{specialList}}">
+                <view class="top-box">
+                    <view class="left-box">
+                        <image src="/static/img/logo.jpg"/>
+                        <view class="title-box">
+                            {{item.title}}
+                            <view class="count-box">{{item.count}}人在一起学习</view>
+                        </view>
+                    </view>
+                    <van-button wx:if="{{item['userState']}}" round color="linear-gradient(to right, #6D8DE1, #506DBC)" icon="play" size="small">
+                        播放全部
+                    </van-button>
+                    <van-button wx:else round color="linear-gradient(to right, #FF9F6C, #FF675B)" size="small">
+                        订阅专栏
+                    </van-button>
+                </view>
+                <view class="bottom-box">
+                    <text class="iconfont icon-bofang"></text>
+                    <text class="text-box">{{item['stepInfoPage']['content'][0].title}}</text>
+                </view>
+            </view>
+        </navigator>
+    </view>
+    <view class="camp-container" wx:if="{{trainingCamp}}">
+        <van-cell size="large">
+            <view slot="title">
+                <text class="custom-title">{{trainingCamp['navigation']['title']}}</text>
+            </view>
+        </van-cell>
+        <view class="camp-box">
+            <image data-result="{{trainingCamp['result']}}" bind:tap="goTrainCampHandle"
+                   src="{{trainingCamp['result']['purl']}}"/>
+        </view>
     </view>
 </view>

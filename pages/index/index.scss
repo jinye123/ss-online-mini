@@ -1,15 +1,130 @@
 .container{
-
   .banner-wrap {
-    padding: 10px 10px 0;
+    padding: 20rpx;
     box-sizing: border-box;
+    height: 375rpx;
     width: 100%;
-    overflow: hidden;
-    border-radius: 10px;
+    border-radius: 16rpx;
     image{
       width: 100%;
       height: 100%;
       border-radius: 16rpx;
+    }
+  }
+  .category-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 140rpx;
+    box-sizing: border-box;
+    padding: 20rpx;
+    background: #ffffff;
+
+    .category-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      flex: 1;
+
+      image {
+        width: 80rpx;
+        height: 80rpx;
+        margin-bottom: 10rpx;
+      }
+
+      text {
+        font-size: 24rpx;
+        font-weight: 400;
+        color: rgba(2, 3, 4, 1);
+        line-height: 24rpx;
+      }
+    }
+  }
+  .update-container{
+    width: 100%;
+    padding: 20rpx;
+    box-sizing: border-box;
+    background: #ffffff;
+
+    .update-item {
+      width: 100%;
+      height: 180rpx;
+      margin-top: 20rpx;
+      border-radius: 10rpx;
+      background: #F9F9F9;
+      box-sizing: border-box;
+      padding: 28rpx 30rpx;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      .top-box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .left-box {
+          flex: 1;
+          margin-right: 20rpx;
+          display: flex;
+          align-items: center;
+          image{
+            width: 60rpx;
+            height: 60rpx;
+          }
+
+          .title-box {
+            color: #333333;
+            font-size: 30rpx;
+            font-weight: bold;
+            margin-left: 16rpx;
+            width: 360rpx;
+
+            .count-box {
+              font-size: 22rpx;
+              font-weight: 400;
+              color: #999999;
+              margin-top: 10rpx;
+            }
+          }
+        }
+      }
+
+      .bottom-box {
+        display: flex;
+        align-items: center;
+
+        .icon-bofang {
+          font-size: 46rpx;
+          color: #D8D8D8;
+        }
+
+        .text-box {
+          width: 85%;
+          font-size: 28rpx;
+          color: #666666;
+          margin-left: 16rpx;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          white-space: nowrap;
+        }
+      }
+    }
+  }
+  .camp-container{
+    padding: 20rpx 0;
+    .camp-box {
+      width: 100%;
+      height: 264rpx;
+      box-sizing: border-box;
+      padding: 0 30rpx;
+
+      image {
+        width: 100%;
+        height: 100%;
+        border-radius: 20rpx;
+      }
     }
   }
 }

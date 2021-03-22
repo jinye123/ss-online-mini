@@ -1,12 +1,116 @@
 .container .banner-wrap {
-  padding: 10px 10px 0;
+  padding: 20rpx;
   box-sizing: border-box;
+  height: 375rpx;
   width: 100%;
-  overflow: hidden;
-  border-radius: 10px;
+  border-radius: 16rpx;
 }
 .container .banner-wrap image {
   width: 100%;
   height: 100%;
   border-radius: 16rpx;
+}
+.container .category-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 140rpx;
+  box-sizing: border-box;
+  padding: 20rpx;
+  background: #ffffff;
+}
+.container .category-container .category-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  flex: 1;
+}
+.container .category-container .category-item image {
+  width: 80rpx;
+  height: 80rpx;
+  margin-bottom: 10rpx;
+}
+.container .category-container .category-item text {
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #020304;
+  line-height: 24rpx;
+}
+.container .update-container {
+  width: 100%;
+  padding: 20rpx;
+  box-sizing: border-box;
+  background: #ffffff;
+}
+.container .update-container .update-item {
+  width: 100%;
+  height: 180rpx;
+  margin-top: 20rpx;
+  border-radius: 10rpx;
+  background: #F9F9F9;
+  box-sizing: border-box;
+  padding: 28rpx 30rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container .update-container .update-item .top-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .update-container .update-item .top-box .left-box {
+  flex: 1;
+  margin-right: 20rpx;
+  display: flex;
+  align-items: center;
+}
+.container .update-container .update-item .top-box .left-box image {
+  width: 60rpx;
+  height: 60rpx;
+}
+.container .update-container .update-item .top-box .left-box .title-box {
+  color: #333333;
+  font-size: 30rpx;
+  font-weight: bold;
+  margin-left: 16rpx;
+  width: 360rpx;
+}
+.container .update-container .update-item .top-box .left-box .title-box .count-box {
+  font-size: 22rpx;
+  font-weight: 400;
+  color: #999999;
+  margin-top: 10rpx;
+}
+.container .update-container .update-item .bottom-box {
+  display: flex;
+  align-items: center;
+}
+.container .update-container .update-item .bottom-box .icon-bofang {
+  font-size: 46rpx;
+  color: #D8D8D8;
+}
+.container .update-container .update-item .bottom-box .text-box {
+  width: 85%;
+  font-size: 28rpx;
+  color: #666666;
+  margin-left: 16rpx;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.container .camp-container {
+  padding: 20rpx 0;
+}
+.container .camp-container .camp-box {
+  width: 100%;
+  height: 264rpx;
+  box-sizing: border-box;
+  padding: 0 30rpx;
+}
+.container .camp-container .camp-box image {
+  width: 100%;
+  height: 100%;
+  border-radius: 20rpx;
 }
